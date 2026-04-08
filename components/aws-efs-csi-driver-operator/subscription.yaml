@@ -5,7 +5,7 @@ metadata:
   namespace: openshift-cluster-csi-drivers
 spec:
   channel: stable
-  installPlanApproval: Automatic
+  installPlanApproval: Manual
   name: aws-efs-csi-driver-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace

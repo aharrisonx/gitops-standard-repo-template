@@ -10,10 +10,10 @@ default:
       app-source: cluster-hub
       repo: cluster-config
     destination:
-      namespace: openshift-gitops
+      namespace: argocd-agent
       server: https://kubernetes.default.svc
     source:
-      repoURL: https://github.com/environment-aas/platform-iac.git
+      repoURL: [GIT REPO HERE]]
       targetRevision: HEAD
     syncOptions:
     - ApplyOutOfSyncOnly=true
