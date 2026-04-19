@@ -3,8 +3,8 @@
   vars:
 #   Leave commented to derive from DNS name
 #   cluster_name: hub1
-    git_src: [GIT-REPO-HERE]
-#   gitops_ssh_key_file: ~/.ssh/your_key_file
+    git_src: git@github.com:aharrisonx/gitops-standard-repo-template.git
+    gitops_ssh_key_file: ~/.ssh/id_rsa
     disconnected: false
     agent_mode: true
   gather_facts: false
