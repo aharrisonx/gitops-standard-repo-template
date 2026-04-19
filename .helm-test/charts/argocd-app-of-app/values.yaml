@@ -13,7 +13,7 @@ default:
       namespace: argocd
       server: https://kubernetes.default.svc
     source:
-      repoURL: https://github.com/cvs-health-enterprise-code/cpc-lab
+      repoURL: git@github.com:aharrisonx/gitops-standard-repo-template.git
       targetRevision: HEAD
     syncOptions:
     - ApplyOutOfSyncOnly=true

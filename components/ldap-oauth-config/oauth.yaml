@@ -4,7 +4,7 @@ metadata:
   name: cluster
 spec:
   identityProviders:
-  - name: cvs-ldap
+  - name: jobu-ldap
     mappingMethod: claim
     type: LDAP
     ldap:
